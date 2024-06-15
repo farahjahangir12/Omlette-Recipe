@@ -1,0 +1,149 @@
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.outfit-font-class {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+body{
+     background-color: hsl(30, 54%, 90%);
+    
+}
+
+main{
+      background-color: hsl(0, 0%, 100%);
+      margin:20px auto;
+      padding:20px;
+      width:50%;
+      border-radius:12px;
+      display:flex;
+      flex-direction:column;
+}
+
+header{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding:10px;
+}
+header img{
+      width:100%;
+      border-radius:12px;
+}
+
+section{
+      
+      font-family:'Outfit';
+      font-weight: normal;
+      font-size:16px;
+      margin:6px;
+
+      
+}
+
+section p{
+      line-height:1.4;
+}
+
+h1{
+      font-family: 'Young Serif';
+      color:hsl(24, 5%, 18%);
+      font-weight:400;
+  
+}
+
+h3{
+      color:hsl(14, 45%, 36%);
+      font-family: 'Young Serif';
+      font-weight:100;
+    
+}
+
+h4{
+       padding-left:16px; 
+}
+
+#preparation{
+       color: hsl(332, 51%, 32%);
+       background-color: hsl(330, 100%, 98%);
+       font-family:'Outfit';
+       font-weight:100;
+       padding-left:20px;
+   
+}
+
+
+ul li,ol li{
+       margin-top:6px;
+       font-weight: normal;
+      
+}
+
+span{
+        margin-right:3px;
+}
+
+ul li span,ol li p{
+        color:hsl(24, 5%, 18%);
+        font-weight: normal;   
+   
+}
+
+ul li span,ol li p{   
+        margin-left:14px;
+}
+
+
+  
+#ingredients ul li, ol li, .values{
+        color:hsl(14, 45%, 36%); 
+        font-weight:bold;
+}
+
+ol li p span{
+        color:hsl(24, 5%, 18%);
+        font-weight: bold; 
+    
+}
+
+ol li {
+        font-size: 14px;
+}
+
+ol li p{
+        font-size:16px;
+        line-height:1.4;
+    
+}
+
+
+table{
+        width:100%;
+        border-collapse:collapse;
+      
+}
+
+#instructions, #ingredients, tr{
+        border-bottom:2px solid  hsl(30, 18%, 87%);
+       
+  
+}
+
+tr:last-child{
+         border-bottom:none;
+}
+
+td{
+         padding:12px;
+         text-align: left;
+}
+
+#instructions,#ingredients,#n-table{
+         padding:16px;
+}
